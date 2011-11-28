@@ -1,0 +1,16 @@
+﻿{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ title }} | {% trans 'Django site admin' %}{% endblock %}
+
+{% block extrahead %}
+<!--
+<script language="JavaScript" type="text/javascript" src="{{STATIC_URL}}site/js/utils/jquery-1.6.2.min.js"></script>
+-->
+{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">BASE</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
